@@ -1,0 +1,35 @@
+#title {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+#sections, #parts {
+  display: flex;
+  justify-content: center;
+}
+
+div #sections, div #parts {
+  margin: 10px;
+}
+
+#sections h1, #parts h1 {
+  margin: 0 30px;
+  padding: 0;
+  text-align: center;
+  align-self: center;
+}
+
+#sections h1 {
+  font-size: 32px;
+}
+
+#parts h1 {
+  font-size: 26px;
+}
+
+#sections button, #parts button {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}

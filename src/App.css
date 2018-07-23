@@ -1,0 +1,39 @@
+html, body, #root, #container {
+  height: 100%;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+Header {
+  display: flex;
+  flex: 3;
+}
+
+.holder {
+  display: flex;
+  flex: 7;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  align-self: center;
+  justify-content: center;
+  flex: 2;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.right {
+  height: 100%;
+  padding: 0 20px;
+  border-left: 1px solid black;
+  flex: 1;
+  overflow-y: scroll;
+}
